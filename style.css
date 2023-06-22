@@ -1,0 +1,101 @@
+:root {
+    --branco: #E4EEF1;
+    --azul: #4B93BF;
+    --textoAzul: #0F468C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+body {
+    background-color: var(--branco);
+}
+
+
+/* HEADER */
+
+.menu {
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    height: 9rem;
+}
+
+.menu__logo {
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+}
+
+
+.menu__navegacao ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+}
+
+
+/* MAIN */
+
+
+/* Primeira sec */
+.introducao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introducao__texto {
+    display: flex;
+    align-items: center;
+    width: 45vw;
+    color: var(--textoAzul);
+    font-size: 1.2rem;
+}
+
+
+/* Segunda sec */
+.inverno {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--azul);
+}
+
+.inverno__texto {
+    color: var(--branco);
+    width: 30vw;
+    font-size: 1.5rem;
+}
+
+/* terceira sec */
+.ursos figure {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* Rodape */
+
+.rodape {
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--branco);
+    font-size: 1.5rem;
+}
