@@ -25,23 +25,24 @@ body {
 
 /* HEADER */
 
-.menu {
+header {
     background-color: var(--azul);
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 1.4rem;
-    height: 9rem;
+    height: 25vh;
+    flex-wrap: wrap;
 }
 
-.menu__logo {
+.logo {
     display: flex;
     align-items: center;
     color: var(--branco);
 }
 
 
-.menu__navegacao ul {
+.navegacao ul {
     display: flex;
     justify-content: space-between;
     width: 35vw;
@@ -49,8 +50,6 @@ body {
 
 
 /* MAIN */
-
-
 /* Primeira sec */
 .introducao {
     display: flex;
@@ -89,9 +88,9 @@ body {
 }
 
 
-/* Rodape */
+/* Footer */
 
-.rodape {
+footer {
     background-color: var(--azul);
     display: flex;
     justify-content: space-around;

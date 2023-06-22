@@ -1,0 +1,37 @@
+@media (max-width: 800px) {
+
+    header {
+        font-size: 10px;
+    }
+
+    .introducao {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .introducao__texto {
+        padding-top: 1rem;
+        width: 90%;
+    }
+
+    .introducao__img {
+        width: 100%;
+    }
+
+    .inverno {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inverno__texto {
+        width: 80%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
