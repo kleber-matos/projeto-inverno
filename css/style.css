@@ -24,7 +24,6 @@ body {
 
 
 /* HEADER */
-
 header {
     background-color: var(--azul);
     display: flex;
@@ -40,7 +39,6 @@ header {
     align-items: center;
     color: var(--branco);
 }
-
 
 .navegacao ul {
     display: flex;
@@ -65,7 +63,6 @@ header {
     font-size: 1.2rem;
 }
 
-
 /* Segunda sec */
 .inverno {
     display: flex;
@@ -87,9 +84,7 @@ header {
     flex-wrap: wrap;
 }
 
-
 /* Footer */
-
 footer {
     background-color: var(--azul);
     display: flex;
